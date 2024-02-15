@@ -1,10 +1,10 @@
-# Visual Finger Recognition with GANs
+# Visual Finger Generation with GANs
 
-This repository contains the code for a project on visual finger recognition using Generative Adversarial Networks (GANs). Two GAN architectures, AC-GAN and W-GAN, were implemented and trained on a dataset of finger images.
+This repository contains the code for a project on visual finger generation using Generative Adversarial Networks (GANs). Two GAN architectures, AC-GAN and W-GAN, were implemented and trained on a dataset of finger images.
 
 ## Introduction
 
-The goal of this project is to explore the effectiveness of GANs in synthesizing realistic finger images for recognition purposes. Both AC-GAN and W-GAN were chosen to compare their performance in generating diverse and high-quality finger images.
+The goal of this project is to explore the effectiveness of GANs in synthesizing realistic finger images for generation purposes. Both AC-GAN and W-GAN were chosen to compare their performance in generating diverse and high-quality finger images.
 
 ## Algorithms
 ### AC-GAN
@@ -22,7 +22,7 @@ Wasserstein GAN is a GAN variant that utilizes Wasserstein distance as the train
 
 ## Comparison of AC-GAN and W-GAN
 
-Both AC-GAN and W-GAN were implemented and trained for visual finger recognition in this project. Here's a comparison of their key characteristics:
+Both AC-GAN and W-GAN were implemented and trained for visual finger generation in this project. Here's a comparison of their key characteristics:
 
 ### Training Stability
 
@@ -39,7 +39,7 @@ Both AC-GAN and W-GAN were implemented and trained for visual finger recognition
 - AC-GAN: The auxiliary classifier encourages the generation of diverse samples corresponding to different classes, resulting in a wider range of synthesized finger images.
 - W-GAN: W-GANs may produce slightly less diverse samples compared to AC-GAN, but still demonstrate the ability to generate realistic finger images.
 
-Overall, both AC-GAN and W-GAN show promising results for visual finger recognition, each with its own strengths and trade-offs.
+Overall, both AC-GAN and W-GAN show promising results for visual finger generation, each with its own strengths and trade-offs.
 
 ## References
 [1] `Odena, A., Olah, C., & Shlens, J. (2017). Conditional image synthesis with auxiliary classifier GANs. In Proceedings of the 34th International Conference on Machine Learning-Volume 70 (pp. 2642-2651). JMLR. org.`
