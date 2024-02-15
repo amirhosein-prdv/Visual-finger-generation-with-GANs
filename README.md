@@ -14,12 +14,11 @@ AC-GAN is an extension of the traditional GAN framework that incorporates both a
 Wasserstein GAN is a GAN variant that utilizes Wasserstein distance as the training objective instead of the Jensen-Shannon divergence used in traditional GANs. W-GAN addresses some of the training instability issues present in standard GAN training and provides a more stable training process.
 
 ## Results
+### W-GAN training result
+![Alt Text](result/wgan_gp.gif)
 
 ### AC-GAN training result
 ![Alt Text](result/acgan.gif)
-
-### W-GAN training result
-![Alt Text](result/wgan_gp.gif)
 
 ## Comparison of AC-GAN and W-GAN
 
